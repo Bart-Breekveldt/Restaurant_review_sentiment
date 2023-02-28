@@ -20,5 +20,5 @@ Results are
 The bigrams actually add some human-interpetable context. The top bigrams can be interpretated as star-descriptions ("the worst" - 1-star, "was ok" - 2-star, "was good" 3-star, "very good" - 4-star and "the best" - 5-star). But the VADER analyis lacks some focus in restaurant review specific token valuation i.e. "highly recommended" is valued at 0.27 (scale -1 to +1) VADER-score, while "was nice" stands at 0.42.
 
 **4. Review sentiment model**
-Predicting stars from a VADER-sentiment seemed difficult. Our assumption is that people's feelings may be contextualized well, but they find it hard to rate their average feelings to a certain star score. This is shown in the pairplot and the star distributions regarding the four forms of sentiment returned by VADER: compound, positive, negative and neutral sentiment. 
+Predicting stars from a VADER-sentiment seemed difficult. Our assumption is that people's feelings may be contextualized well, but they find it hard to rate their average feelings to a certain star score. This is shown in the pairplot and the star distributions regarding the four forms of sentiment returned by VADER: compound, positive, negative and neutral sentiment. This led us to use the VADER-sentiment scores as predictor (Y) variable and the review texts as predictive (X). We determined the best predictive VADER
 
