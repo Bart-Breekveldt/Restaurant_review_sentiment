@@ -1,1 +1,5 @@
 # Restaurant_review_sentiment
+
+This project is executed for the course Critical Data Mining of Media Culture (Utrecht University) in which natural language processing techniques are adressed. The main goal of
+
+For retrieving restaurant reviews at first Google Maps is used as a data source. Retrieving reviews from the internet is executed by webscraping, which is facilitated by the Google Places API. A Puppeteer scraper hosted on the Apify platform is used to perform the retrieval of reviews and relevant data. Puppeteer is a browser automation library that allows you to control a browser using JavaScript. The Google Places API returns information about places using HTTP requests. A Puppeteer scraper hosted on the Apify platform is used to perform the retrieval of reviews and relevant data. 122 restaurants are selected in the London area, using the “restaurants near London'' search term .A maximum of 250 reviews are scraped from each restaurant. Due to some restaurants having less than 250 reviews, we are left with a dataset totalling 29.046 reviews. This averages out to about 238 reviews per restaurant.
