@@ -1,0 +1,24 @@
+{
+  "exportPlaceUrls": false,
+  "language": "en",
+  "maxCrawledPlacesPerSearch": 200,
+  "maxImages": 0,
+  "maxReviews": 250,
+  "oneReviewPerRow": true,
+  "proxyConfig": {
+    "useApifyProxy": true
+  },
+  "reviewsSort": "mostRelevant",
+  "scrapeResponseFromOwnerText": true,
+  "scrapeReviewId": true,
+  "scrapeReviewUrl": true,
+  "scrapeReviewerId": true,
+  "scrapeReviewerName": false,
+  "scrapeReviewerUrl": true,
+  "searchStringsArray": [
+    "restaurants london"
+  ],
+  "reviewsTranslation": "originalAndTranslated",
+  "reviewsFilterString": "",
+  "allPlacesNoSearchAction": ""
+}
